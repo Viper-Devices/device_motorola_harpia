@@ -141,4 +141,9 @@ void vendor_load_properties()
         property_set("ro.mot.build.customerid", customerid);
     }
 
+    property_override_dual("ro.product.device", "ro.vendor.product.device", device);
+    property_override_dual("ro.build.product", "ro.vendor.build.product", device);
+    property_override_dual("ro.build.description", "ro.vendor.build.description", description);
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", fingerprint);
+
 }
