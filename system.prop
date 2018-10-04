@@ -7,7 +7,7 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Display
 debug.hwui.use_buffer_age=false
-ro.sf.lcd_density=320
+ro.sf.lcd_density=400
 
 # Radio
 persist.radio.aosp_usr_pref_sel=true
