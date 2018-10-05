@@ -66,6 +66,9 @@ bool is2GB()
 void vendor_load_properties()
 {
     const char *customerid = NULL;
+    char description[PROP_VALUE_MAX];
+    char device[PROP_VALUE_MAX];
+    char fingerprint[PROP_VALUE_MAX];
     std::string platform;
     std::string dualsim;
     std::string radio;
@@ -140,6 +143,11 @@ void vendor_load_properties()
     if (customerid) {
         property_set("ro.mot.build.customerid", customerid);
     }
+
+    // Unlike the osprey, we all have the same codename, so let's just pass harpia.
+    sprintf(device, "harpia");
+    sprintf(description, "harpia-user 7.1.1 NPIS26.48-36-5 12 release-keys");
+    sprintf(fingerprint, "motorola/harpia/harpia:7.1.1/NPIS26.48-36-5/12:user/release-keys");
 
     property_override_dual("ro.product.device", "ro.vendor.product.device", device);
     property_override_dual("ro.build.product", "ro.vendor.build.product", device);
