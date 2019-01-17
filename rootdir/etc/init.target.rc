@@ -26,6 +26,9 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+on early-init
+    start harpia-config-sh
+
 on post-fs-data
     # Permissions for Sensor HAL
     chown system system "/sys/class/sensors/bma25x-accel/enable"
@@ -56,3 +59,21 @@ on post-fs-data
 
     # Imager tuning data for camera subsystem
     mkdir /data/misc/imager 0770 camera camera
+
+service harpia-config-sh /vendor/bin/init.device.config.sh
+    class core
+    user root
+    oneshot
+    disabled
+
+on property:ro.device.dualsim=true
+    setprop persist.radio.force_get_pref 1
+    setprop persist.radio.multisim.config dsds
+    setprop ro.hw.dualsim true
+
+on property:ro.device.dualsim=false
+    setprop persist.radio.multisim.config ""
+    setprop ro.hw.dualsim false
+
+on property:ro.boot.hardware.sku=XT1601
+    setprop persist.radio.process_sups_ind 1

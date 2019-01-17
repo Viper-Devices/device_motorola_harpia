@@ -11,3 +11,6 @@ ro.sf.lcd_density=400
 
 # Radio
 persist.radio.aosp_usr_pref_sel=true
+
+# Radio
+ro.telephony.default_network=10
