@@ -1,0 +1,25 @@
+[
+  {
+    "remote": "github",
+    "repository": "Akianonymus/Linaro-arm",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9",
+    "branch": "4.9"
+  },
+  {
+    "remote": "github",
+    "repository": "Harpia-development/kernel_motorola_msm8916",
+    "target_path": "kernel/motorola/msm8916",
+    "branch": "pie"
+  },
+  {
+    "repository": "device_motorola_msm8916-common",
+    "target_path": "device/motorola/msm8916-common",
+    "branch": "pie"
+  },
+  {
+    "remote": "github",
+    "repository": "Harpia-development/vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch": "pie"
+  }
+]
