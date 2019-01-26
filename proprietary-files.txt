@@ -108,4 +108,4 @@ lib/libmotocalibration.so
 lib/hw/sensors.msm8916.so
 
 # WCNSS
-etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
