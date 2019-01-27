@@ -11,7 +11,7 @@ vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
 bin/mm-qcamera-daemon
-lib/libadvalgcore.so
+lib/libadvalgcore.so|d4f1e20e6323ee6a9380b93741a264546cbee4f4
 lib/libarcsoft_beautyshot.so
 lib/libcamerabgprocservice.so
 lib/libjscore.so
@@ -38,7 +38,7 @@ vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
 vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so|0d741dbe042567742e45d5db56e6d8e2c5f963ea
 vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_pproc_modules.so
