@@ -47,3 +47,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2018-06-01
 
+# QDCM
+PRODUCT_PACKAGES += \
+    pp_calib_data_mipi_mot_video_boe_720p_499.xml \
+    pp_calib_data_mipi_mot_video_tianma_720p_499.xml
