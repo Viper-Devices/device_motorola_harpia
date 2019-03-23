@@ -10,7 +10,7 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-bin/mm-qcamera-daemon
+vendor/bin/mm-qcamera-daemon
 lib/libadvalgcore.so|d4f1e20e6323ee6a9380b93741a264546cbee4f4
 lib/libarcsoft_beautyshot.so
 lib/libcamerabgprocservice.so
