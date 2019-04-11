@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "Harpia-development/kernel_motorola_msm8916",
+    "repository": "Akianonymus/kernel_harpia",
     "target_path": "kernel/motorola/msm8916",
     "branch": "pie"
   },
