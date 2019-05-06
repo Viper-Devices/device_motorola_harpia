@@ -32,6 +32,7 @@ set_dalvik_props ()
             setprop dalvik.vm.heaptargetutilization "0.75"
             setprop dalvik.vm.heapminfree "2m"
             setprop dalvik.vm.heapmaxfree "8m"
+            setprop ro.af.client_heap_size_kbyte "7168"
         ;;
         # 2GB
         * )
