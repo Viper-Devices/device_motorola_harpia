@@ -28,9 +28,9 @@
 	<ctl name="IIR1 INP3 Volume" value="84" />
 	<ctl name="IIR1 INP4 Volume" value="84" />
 	<ctl name="IIR1 INP1 MUX" value="ZERO" />
-	<ctl name="ADC1 Volume" value="0" />
-	<ctl name="ADC2 Volume" value="0" />
-	<ctl name="ADC3 Volume" value="0" />
+	<ctl name="ADC1 Volume" value="06" />
+	<ctl name="ADC2 Volume" value="06" />
+	<ctl name="ADC3 Volume" value="06" />
 	<ctl name="DEC1 Volume" value="84" />
 	<ctl name="DEC2 Volume" value="84" />
 	<ctl name="DEC2 MUX" value="ZERO" />
@@ -585,6 +585,8 @@
 	<path name="speaker-and-headphones">
 		<path name="headphones" />
 		<path name="speaker" />
+		<ctl name="RX1 Digital Volume" value="76" />
+		<ctl name="RX2 Digital Volume" value="76" />
 	</path>
 
 	<path name="speaker-and-line">
