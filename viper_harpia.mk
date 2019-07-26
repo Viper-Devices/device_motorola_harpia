@@ -17,8 +17,7 @@ $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Inherit some common rr stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
-RR_BUILDTYPE = official
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
@@ -27,7 +26,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := harpia
-PRODUCT_NAME := rr_harpia
+PRODUCT_NAME := viper_harpia
 PRODUCT_MODEL := Moto G Play
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
@@ -38,3 +37,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := motorola/harpia/harpia:7.1.1/NPIS26.48-36-5/12:user/release-keys
 
+# Its Official ViperOS
+
+VIPER_BUILD_TYPE := OFFICIAL

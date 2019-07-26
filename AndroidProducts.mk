@@ -14,4 +14,4 @@
 # language governing permissions and limitations under the
 # License.
  PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_harpia.mk
+    $(LOCAL_DIR)/viper_harpia.mk
